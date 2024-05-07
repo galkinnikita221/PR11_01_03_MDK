@@ -96,20 +96,159 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <HorizontalScrollView
                 android:layout_width="wrap_content"
-                android:layout_height="105dp"
-                android:layout_marginTop="10dp">
+                android:layout_height="match_parent">
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/wallet_header"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="105dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
 
-            </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="105dp"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/wallet_header">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/face_header" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/wallet_header">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/guard_header"/>
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="105dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="130dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/wallet_header">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/card_header"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="999,999 Р"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="55dp"/>
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="20dp"
+                                android:text="Зарплатная •• 2222"
+                                android:layout_marginTop="80dp"
+                                android:layout_marginLeft="11dp"
+                                android:textColor="#8EAFB6"
+                                android:textSize="11sp"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="130dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/wallet_header">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/card2"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="120 Р"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="55dp"/>
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="20dp"
+                                android:text="Резервная •• 7777"
+                                android:layout_marginTop="80dp"
+                                android:layout_marginLeft="11dp"
+                                android:textColor="#8EAFB6"
+                                android:textSize="11sp"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="130dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/wallet_header">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/card3_header"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:text="0 Р"
+                                android:textColor="@color/white"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="55dp"/>
+
+                            <TextView
+                                android:layout_width="120dp"
+                                android:layout_height="20dp"
+                                android:text="Кредитная •• 9999"
+                                android:layout_marginTop="80dp"
+                                android:layout_marginLeft="11dp"
+                                android:textColor="#8EAFB6"
+                                android:textSize="11sp"/>
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
 
         </LinearLayout>
+
+
 
 
     </LinearLayout>
