@@ -11,10 +11,6 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -807,6 +803,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
@@ -995,6 +992,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:layout_height="wrap_content">
 
                         <LinearLayout
@@ -1125,7 +1123,197 @@
                     </LinearLayout>
                 </HorizontalScrollView>
 
-            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Рекомендуем"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="270dp"
+                        android:text="Ещё"
+                        android:textSize="10sp"
+                        android:textColor="#008000"/>
+
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:orientation="vertical"
+                                android:background="@drawable/expenses_main">
+
+                                <LinearLayout
+                                    android:layout_width="120dp"
+                                    android:orientation="vertical"
+                                    android:layout_height="100dp">
+
+                                    <ImageView
+                                        android:layout_width="120dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/megamarket1_main"
+                                        android:background="@drawable/megamarket2_main"/>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Рекламодатель\nООО «Маркетплэйс»"
+                                    android:textSize="8sp"
+                                    android:layout_marginLeft="15dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:orientation="vertical"
+                                android:layout_marginLeft="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/flowers_main">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/flowers2_main"
+                                        android:layout_marginLeft="5dp">
+
+                                        <TextView
+                                            android:layout_width="50dp"
+                                            android:layout_gravity="center"
+                                            android:paddingTop="1dp"
+                                            android:paddingLeft="5dp"
+                                            android:layout_height="15dp"
+                                            android:text="Промокод"
+                                            android:textSize="8sp"
+                                            android:textColor="@color/white"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Рекламодатель ООО \n«Инстамарт Сервис»"
+                                    android:textSize="8sp"
+                                    android:layout_marginLeft="15dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:orientation="vertical"
+                                android:layout_marginLeft="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/megamarket3_main">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/flowers2_main"
+                                        android:layout_marginLeft="5dp">
+
+                                        <TextView
+                                            android:layout_width="50dp"
+                                            android:layout_gravity="center"
+                                            android:paddingTop="1dp"
+                                            android:paddingLeft="5dp"
+                                            android:layout_height="15dp"
+                                            android:text="Промокод"
+                                            android:textSize="8sp"
+                                            android:textColor="@color/white"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Рекламодатель ООО \n«Мегамаркет Сервис»"
+                                    android:textSize="8sp"
+                                    android:layout_marginLeft="15dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:orientation="vertical"
+                                android:layout_marginLeft="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="120dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/megamarket4_main">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/flowers2_main"
+                                        android:layout_marginLeft="5dp">
+
+                                        <TextView
+                                            android:layout_width="50dp"
+                                            android:layout_gravity="center"
+                                            android:paddingTop="1dp"
+                                            android:paddingLeft="5dp"
+                                            android:layout_height="15dp"
+                                            android:text="Промокод"
+                                            android:textSize="8sp"
+                                            android:textColor="@color/white"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Рекламодатель ООО \n«Галкин Сервис»"
+                                    android:textSize="8sp"
+                                    android:layout_marginLeft="15dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
         </LinearLayout>
 
     </ScrollView>
