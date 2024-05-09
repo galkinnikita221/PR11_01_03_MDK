@@ -394,6 +394,7 @@
                     android:orientation="vertical"
                     android:layout_height="80dp">
 
+
                     <FrameLayout
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -405,6 +406,68 @@
                             android:layout_width="25dp"
                             android:layout_height="25dp"
                             android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Г Н"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"/>
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/exit_main"
+                            android:layout_gravity="right"/>
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="27dp"
+
+                        android:textSize="10sp"
+                        android:text="Галкин \nНикита"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="80dp">
+
+                    <FrameLayout
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/translations2_main"
+                        android:layout_marginLeft="25dp">
+
+                        <LinearLayout
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:background="@drawable/message_main"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="25dp">
+
+
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="3.5dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:text="1"/>
+
+                        </LinearLayout>
+
+
+
+
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -434,110 +497,26 @@
                         android:background="@drawable/translations2_main"
                         android:layout_marginLeft="25dp">
 
-                        <ImageView
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
-                            android:layout_gravity="center"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Г Н"
-                            android:textColor="@color/black"
-                            android:layout_gravity="center"/>
-                    </FrameLayout>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_marginLeft="27dp"
-
-                        android:textSize="10sp"
-                        android:text="Галкин \nНикита"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_height="80dp">
-
-                    <FrameLayout
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="15dp"
-                        android:background="@drawable/translations2_main"
-                        android:layout_marginLeft="25dp">
-
-                        <ImageView
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
-                            android:layout_gravity="center"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Г Н"
-                            android:textColor="@color/black"
-                            android:layout_gravity="center"/>
+                        <LinearLayout
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:background="@drawable/message_main"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="25dp">
 
 
-                    </FrameLayout>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_marginLeft="27dp"
 
-                        android:textSize="10sp"
-                        android:text="Галкин \nНикита"/>
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="3.5dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:text="1"/>
 
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_height="80dp">
-
-                    <FrameLayout
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="15dp"
-                        android:background="@drawable/translations2_main"
-                        android:layout_marginLeft="25dp">
-
-                        <ImageView
-                            android:layout_width="25dp"
-                            android:layout_height="25dp"
-                            android:layout_gravity="center"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Г Н"
-                            android:textColor="@color/black"
-                            android:layout_gravity="center"/>
-
-
-                    </FrameLayout>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_marginLeft="27dp"
-
-                        android:textSize="10sp"
-                        android:text="Галкин \nНикита"/>
-
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_height="80dp">
-
-                    <FrameLayout
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginTop="15dp"
-                        android:background="@drawable/translations2_main"
-                        android:layout_marginLeft="25dp">
+                        </LinearLayout>
 
                         <ImageView
                             android:layout_width="25dp"
@@ -575,6 +554,27 @@
                         android:background="@drawable/translations2_main"
                         android:layout_marginLeft="25dp">
 
+                        <LinearLayout
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:background="@drawable/message_main"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="25dp">
+
+
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="3.5dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:text="1"/>
+
+                        </LinearLayout>
+
                         <ImageView
                             android:layout_width="25dp"
                             android:layout_height="25dp"
@@ -611,6 +611,27 @@
                         android:background="@drawable/translations2_main"
                         android:layout_marginLeft="25dp">
 
+                        <LinearLayout
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:background="@drawable/message_main"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="25dp">
+
+
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="3.5dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:text="1"/>
+
+                        </LinearLayout>
+
                         <ImageView
                             android:layout_width="25dp"
                             android:layout_height="25dp"
@@ -634,17 +655,288 @@
                         android:text="Галкин \nНикита"/>
 
 
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="80dp">
+
+                    <FrameLayout
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/translations2_main"
+                        android:layout_marginLeft="25dp">
+
+                        <LinearLayout
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:background="@drawable/message_main"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="25dp">
+
+
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="3.5dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:text="1"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Г Н"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"/>
+
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="27dp"
+
+                        android:textSize="10sp"
+                        android:text="Галкин \nНикита"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="80dp">
+
+                    <FrameLayout
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/translations2_main"
+                        android:layout_marginLeft="25dp">
+
+                        <LinearLayout
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:background="@drawable/message_main"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="25dp">
+
+
+
+                            <TextView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="3.5dp"
+                                android:layout_marginBottom="2dp"
+                                android:layout_gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="@color/white"
+                                android:text="1"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Г Н"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center"/>
+
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="27dp"
+
+                        android:textSize="10sp"
+                        android:text="Галкин \nНикита"/>
                 </LinearLayout>
             </LinearLayout>
+        </HorizontalScrollView>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="20dp">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Расходы в мае"
+                android:textSize="13sp"
+                android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="268dp"
+                android:text="Все"
+                android:textColor="#027202"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/expenses_main">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/img1_main"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="1 812 Р"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="9sp"
+                            android:text="Все расходы \nиз 45 000 Р"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/expenses_main">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/bus_main"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Транспорт"
+                            android:textSize="10sp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="9sp"
+                            android:text="1982 Р"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/expenses_main">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/cafe_main"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Рестораны \nи кафе"
+                            android:textSize="10sp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="9sp"
+                            android:text="2006 Р"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/expenses_main">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/cafe_main"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="Цветы"
+                            android:textSize="10sp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="9sp"
+                            android:text="5000 Р"
+                            android:layout_marginTop="8dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
         </HorizontalScrollView>
 
 
     </LinearLayout>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
