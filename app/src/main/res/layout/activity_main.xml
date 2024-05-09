@@ -936,6 +936,35 @@
             </LinearLayout>
         </HorizontalScrollView>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Кредиты"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/crose_main"/>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="295dp"
+                android:textColor="#027202"
+                android:src="@drawable/plus_main"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
