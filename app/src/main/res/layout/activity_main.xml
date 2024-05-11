@@ -30,12 +30,13 @@
                         <ImageView
                             android:layout_width="35dp"
                             android:layout_height="35dp"
+                            android:onClick="Profile"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="5dp"
                             android:src="@drawable/image_header" />
 
                         <EditText
-                            android:layout_width="265dp"
+                            android:layout_width="230dp"
                             android:layout_height="35dp"
                             android:paddingLeft="10dp"
                             android:hint="Поиск"
@@ -49,12 +50,14 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
+                            android:onClick="Basket"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="5dp"
                             android:background="@drawable/sale_header" />
 
                         <ImageView
                             android:layout_width="30dp"
+                            android:onClick="AllServices"
                             android:layout_height="30dp"
                             android:layout_marginLeft="15dp"
                             android:layout_marginTop="5dp"
@@ -82,10 +85,12 @@
                             android:layout_height="15dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="11.5dp"
+                            android:onClick="Wallet1"
                             android:src="@drawable/arrow_header" />
 
                         <ImageView
                             android:layout_width="30dp"
+                            android:onClick="Wallet2"
                             android:layout_height="30dp"
                             android:layout_marginLeft="170dp"
                             android:src="@drawable/eye_header" />
@@ -93,6 +98,7 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
+                            android:onClick="Wallet3"
                             android:src="@drawable/dot_header"
                             android:layout_marginLeft="15dp"/>
 
@@ -115,6 +121,7 @@
 
                                 <FrameLayout
                                     android:layout_width="50dp"
+                                    android:onClick="Wallet4"
                                     android:layout_height="50dp"
                                     android:layout_marginLeft="20dp"
                                     android:background="@drawable/wallet_header">
@@ -129,6 +136,7 @@
                                 <FrameLayout
                                     android:layout_width="50dp"
                                     android:layout_height="50dp"
+                                    android:onClick="Wallet5"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="5dp"
                                     android:background="@drawable/wallet_header">
@@ -150,6 +158,7 @@
                                 <FrameLayout
                                     android:layout_width="130dp"
                                     android:layout_height="100dp"
+                                    android:onClick="Wallet6"
                                     android:layout_marginLeft="10dp"
                                     android:background="@drawable/wallet_header">
 
@@ -183,6 +192,7 @@
                                     android:layout_width="130dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="10dp"
+                                    android:onClick="Wallet7"
                                     android:background="@drawable/wallet_header">
 
                                     <ImageView
@@ -215,6 +225,7 @@
                                     android:layout_width="130dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="10dp"
+                                    android:onClick="Wallet8"
                                     android:background="@drawable/wallet_header">
 
                                     <ImageView
@@ -290,6 +301,7 @@
                         <ImageView
                             android:layout_width="15dp"
                             android:layout_height="15dp"
+                            android:onClick="Exit"
                             android:layout_marginLeft="330dp"
                             android:src="@drawable/exit_main" />
 
@@ -345,6 +357,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="225dp"
+                        android:onClick="All"
                         android:text="Все (13)"
                         android:textColor="#027202"
                         android:textSize="13sp"/>
@@ -369,6 +382,7 @@
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_marginTop="15dp"
+                                android:onClick="Transfer"
                                 android:background="@drawable/translations_mian"
                                 android:layout_marginLeft="25dp">
 
@@ -400,6 +414,7 @@
 
                             <FrameLayout
                                 android:layout_width="40dp"
+                                android:onClick="Transfer2"
                                 android:layout_height="40dp"
                                 android:layout_marginTop="15dp"
                                 android:background="@drawable/translations2_main"
@@ -443,6 +458,7 @@
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_marginTop="15dp"
+                                android:onClick="Transfer2"
                                 android:background="@drawable/translations2_main"
                                 android:layout_marginLeft="25dp">
 
@@ -496,6 +512,7 @@
                             <FrameLayout
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
+                                android:onClick="Transfer2"
                                 android:layout_marginTop="15dp"
                                 android:background="@drawable/translations2_main"
                                 android:layout_marginLeft="25dp">
@@ -554,6 +571,7 @@
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_marginTop="15dp"
+                                android:onClick="Transfer2"
                                 android:background="@drawable/translations2_main"
                                 android:layout_marginLeft="25dp">
 
@@ -610,6 +628,7 @@
                             <FrameLayout
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
+                                android:onClick="Transfer2"
                                 android:layout_marginTop="15dp"
                                 android:background="@drawable/translations2_main"
                                 android:layout_marginLeft="25dp">
@@ -790,7 +809,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="260dp"
+                        android:layout_marginLeft="255dp"
+                        android:onClick="All"
                         android:text="Все"
                         android:textColor="#027202"
                         android:textSize="13sp"/>
@@ -815,6 +835,7 @@
                             <LinearLayout
                                 android:layout_width="120dp"
                                 android:layout_height="120dp"
+                                android:onClick="Expenses"
                                 android:orientation="vertical"
                                 android:background="@drawable/expenses_main">
 
@@ -847,6 +868,7 @@
                                 android:layout_height="120dp"
                                 android:orientation="vertical"
                                 android:layout_marginLeft="10dp"
+                                android:onClick="Expenses2"
                                 android:background="@drawable/expenses_main">
 
                                 <ImageView
@@ -876,6 +898,7 @@
                             <LinearLayout
                                 android:layout_width="120dp"
                                 android:layout_height="120dp"
+                                android:onClick="Expenses3"
                                 android:orientation="vertical"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/expenses_main">
@@ -908,6 +931,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="120dp"
                                 android:orientation="vertical"
+                                android:onClick="Expenses4"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/expenses_main">
 
@@ -957,6 +981,7 @@
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="3dp"
+                        android:onClick="All"
                         android:layout_marginTop="2dp"
                         android:src="@drawable/crose_main"/>
 
@@ -964,6 +989,7 @@
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_marginLeft="280dp"
+                        android:onClick="Add"
                         android:textColor="#027202"
                         android:src="@drawable/plus_main"
                         android:textSize="13sp"/>
@@ -1003,6 +1029,7 @@
 
                             <LinearLayout
                                 android:layout_width="120dp"
+                                android:onClick="Add2"
                                 android:layout_height="120dp"
                                 android:orientation="vertical"
                                 android:background="@drawable/expenses_main">
@@ -1036,6 +1063,7 @@
                                 android:layout_height="120dp"
                                 android:orientation="vertical"
                                 android:layout_marginLeft="10dp"
+                                android:onClick="AllServices"
                                 android:background="@drawable/expenses_main">
 
                                 <ImageView
@@ -1059,6 +1087,7 @@
                             <LinearLayout
                                 android:layout_width="120dp"
                                 android:layout_height="120dp"
+                                android:onClick="Sales"
                                 android:orientation="vertical"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/expenses_main">
@@ -1091,6 +1120,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="120dp"
                                 android:orientation="vertical"
+                                android:onClick="Expenses4"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/expenses_main">
 
@@ -1140,6 +1170,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="260dp"
+                        android:onClick="All"
                         android:text="Ещё"
                         android:textSize="10sp"
                         android:textColor="#008000"/>
@@ -1174,6 +1205,7 @@
 
                                     <ImageView
                                         android:layout_width="120dp"
+                                        android:onClick="Adverting"
                                         android:layout_height="100dp"
                                         android:src="@drawable/megamarket1_main"
                                         android:background="@drawable/megamarket2_main"/>
@@ -1198,6 +1230,7 @@
                                 <LinearLayout
                                     android:layout_width="120dp"
                                     android:layout_height="100dp"
+                                    android:onClick="Adverting2"
                                     android:background="@drawable/flowers_main">
 
                                     <LinearLayout
@@ -1238,6 +1271,7 @@
                                 <LinearLayout
                                     android:layout_width="120dp"
                                     android:layout_height="100dp"
+                                    android:onClick="Adverting3"
                                     android:background="@drawable/megamarket3_main">
 
                                     <LinearLayout
@@ -1273,6 +1307,7 @@
                                 android:layout_width="120dp"
                                 android:layout_height="120dp"
                                 android:orientation="vertical"
+                                android:onClick="Adverting4"
                                 android:layout_marginLeft="10dp">
 
                                 <LinearLayout
@@ -1341,8 +1376,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="260dp"
+                            android:layout_marginLeft="255dp"
                             android:text="Ещё"
+                            android:onClick="All"
                             android:textColor="#227831"
                             android:textSize="10sp"/>
 
@@ -1363,6 +1399,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:onClick="Buy"
                                 android:text="Купить"
                                 android:textColor="@color/black"/>
 
@@ -1370,6 +1407,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="15dp"
+                                android:onClick="Sale"
                                 android:text="Продать"
                                 android:textColor="@color/black"/>
 
@@ -1393,6 +1431,7 @@
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
+                                        android:onClick="Valute1"
                                         android:layout_height="wrap_content"
                                         android:orientation="horizontal">
 
@@ -1479,6 +1518,7 @@
                                     <LinearLayout
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:onClick="Valute2"
                                         android:orientation="horizontal">
 
                                         <ImageView
@@ -1564,6 +1604,7 @@
                                     <LinearLayout
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:onClick="Valute3"
                                         android:orientation="horizontal">
 
                                         <ImageView
